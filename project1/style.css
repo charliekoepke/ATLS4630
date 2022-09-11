@@ -1,5 +1,116 @@
+header h1 {
+    text-align: center;
+}
+header #openbutton {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
 body {
-    background: blue;
-    /* font */
-    
+    font-family: sans-serif;    
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    gap: 1em 1em;
+}
+
+/* Side Navigation */
+/* Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2.5em;
+}
+.sidenav a {
+    padding: 0.75em 0.75em 0.75em 2em;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebutton {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    font-size: 2em;
+    margin-left: 4em;
+}
+.sidenav .closebutton:hover {
+    cursor: pointer;
+}
+#openbutton {
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #818181;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+footer img {
+    max-width: 3em;
+}
+
+/* Format for mobile devices */
+@media only screen and (max-width: 480px) {
+    header #openbutton {
+        position: relative;
+        top: 1em;
+        left: 1em;
+    }
+    .grid-container {
+        display: block;
+    }
+    footer img {
+        max-width: 2em;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 2.5em;
+    }
+    .sidenav a {
+        padding: 0.75em 0.75em 0.75em 2em;
+        text-decoration: none;
+        font-size: 1em;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebutton {
+        position: absolute;
+        top: 0;
+        right: 1em;
+        font-size: 2em;
+        margin-left: 4em;
+    }
 }
