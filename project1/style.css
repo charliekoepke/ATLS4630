@@ -3,19 +3,23 @@ header h1 {
 }
 header #openbutton {
     position: fixed;
-    top: 1em;
+    top: 1.5em;
     left: 1em;
 }
 
 body {
     font-family: sans-serif;    
 }
+main{
+    text-align: center;
+}
 
 /* Grid */
 .grid-container {
     display: grid;
-    gap: 1em 1em;
+    grid-template-columns: 50% 50%;
 }
+
 
 /* Side Navigation */
 /* Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
@@ -62,8 +66,7 @@ footer {
     background: #818181;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin-left: -1em;
-    margin-right: -1em;
+    width: 100%;
 }
 footer img {
     max-width: 3em;
