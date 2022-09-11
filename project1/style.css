@@ -72,7 +72,7 @@ footer img {
 }
 
 /* Format for mobile devices */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {    
     header #openbutton {
         position: relative;
         top: 1em;
@@ -125,3 +125,5 @@ footer img {
         margin-left: 4em;
     }
 }
+
+/* Format for tablets */
