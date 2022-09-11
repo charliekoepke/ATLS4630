@@ -15,11 +15,10 @@ main{
 }
 
 /* Grid */
-.grid-container {
+.grid {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-
 
 /* Side Navigation */
 /* Source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
@@ -79,11 +78,20 @@ footer img {
         top: 1em;
         left: 1em;
     }
-    .grid-container {
-        display: block;
+
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
     }
+    .grid img {
+        height: 20em;
+    }
+
     footer img {
         max-width: 2em;
+    }
+    footer {
+        width: 100%;
     }
 
     .sidenav {
