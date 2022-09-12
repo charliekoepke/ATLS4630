@@ -10,14 +10,28 @@ header #openbutton {
 body {
     font-family: sans-serif;    
 }
+
 main{
     text-align: center;
+}
+main p {
+    padding: 1em;
+    text-align: justify;
 }
 
 /* Grid */
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+/* Grid for About Me page */
+.grid-aboutme {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.grid-aboutme img {
+    max-width: 100%;
 }
 
 /* Side Navigation */
@@ -77,6 +91,13 @@ footer img {
         position: relative;
         top: 1em;
         left: 1em;
+    }
+
+    .floatleft {
+        float: none;
+    }
+    .floatleft img {
+        width: 100%;
     }
 
     .grid {
