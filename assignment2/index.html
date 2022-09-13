@@ -3,10 +3,51 @@
     <head>
         <title>HTML Forms</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- Generate a frog based on the information given -->
         <form>
+            <fieldset>
+                <legend>Create your frog!</legend>
+
+                <!-- Name of frog -->
+                <label for="name">Name your frog:</label>
+                <input type="text" id="name" name="name" required>
             
+
+                <!-- What colour should the frog be? -->
+                <!-- Colour picker -->
+                <label for="body">What colour would you like your frog to be?</label>
+
+                <!-- What colour should the eyes be? -->
+                <!-- Colour picker -->
+                <label for="eyes"></label>
+
+                <!-- What colour should the pupils be? -->
+                <!-- Only options are black or white -->
+                <label for="pupils"></label>
+
+                <!-- What colour should the mouth be? -->
+                <!-- Colour picker -->
+                <label for="mouth"></label>
+            </fieldset>
+            <fieldset>
+                <legend>What do you want your frog to say?</legend>
+            </fieldset>
+            <!-- Reset button -->
+
+            <!-- Create frog button -->
+            <button>Frog!</button>
         </form>
+
+        <!-- Where the drawing will be generated -->
+        <div class="drawing">
+            <div class="body">
+                <div class="eyes"></div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

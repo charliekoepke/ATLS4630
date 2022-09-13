@@ -1,0 +1,56 @@
+/* Frog drawing */
+/* Source: https://codepen.io/alvaromontoro/pen/PoGWZom */
+html {
+    --skin: #66a869;
+    --eye: #ffd;
+    --pupil: #222;
+    --mouth: #a43;
+}
+
+.drawing {
+    display: none;
+    width: 35em;
+    height: 35em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.drawing div,
+.drawing div.ha::after,
+.drawing div.hb::before {
+  position: absolute;
+}
+
+.body {
+    width: 18em;
+    height: 15em;
+    background: var(--skin);
+    border-radius: 40%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.eyes {
+    width: 2em;
+    height: 1em;
+    background: var(--pupil);
+    top: 1em;
+    left: 4em;
+    border-radius: 100%;
+    box-shadow: 
+        0 0 0 1em var(--eye), 
+        0 0 0 1.5em var(--skin), 
+        6.75em 0 0 var(--pupil), 
+        6.75em 0 0 1em var(--eye), 
+        6.75em 0 0 1.5em var(--skin);
+}
+  
+.mouth {
+    left: 8em;
+    top: -1em;
+    transform: translate(-50%, 0);
+    width: 10em;
+    height: 7em;
+    box-shadow: 0 0.3em 0 0em var(--mouth);
+}
