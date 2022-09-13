@@ -1,3 +1,31 @@
+/* Unica One font */
+/* Source: https://fonts.google.com/specimen/Unica+One?category=Display */
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+/* Karla font */
+/* Source: https://fonts.google.com/specimen/Karla?category=Sans+Serif */
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+    background: #F0F2F2;
+    color: #010326;
+    font-family: 'Karla', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Unica One', display;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+
 header h1 {
     text-align: center;
 }
@@ -5,7 +33,7 @@ header #openbutton {
     position: fixed;
     top: 1.5em;
     left: 1em;
-    color: #818181;
+    color: #393E59;
 }
 
 body {
@@ -22,7 +50,7 @@ main p {
 
 .header {
     height: 20em;
-    background-color: white;
+    background-color: #82D9D9;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -60,7 +88,7 @@ main p {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #010326;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 2.5em;
@@ -69,12 +97,12 @@ main p {
     padding: 0.75em 0.75em 0.75em 2em;
     text-decoration: none;
     font-size: 1.5em;
-    color: #818181;
+    color: #393E59;
     display: block;
     transition: 0.3s;
 }
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #6FBFBF;
 }
 .sidenav .closebutton {
     position: absolute;
@@ -93,7 +121,7 @@ main p {
 /* Footer */
 footer {
     text-align: center;
-    background: #818181;
+    background: #393E59;
     padding-top: 1em;
     padding-bottom: 1em;
     width: 100%;
@@ -139,7 +167,7 @@ footer img {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: #010326;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 2.5em;
@@ -148,12 +176,12 @@ footer img {
         padding: 0.75em 0.75em 0.75em 2em;
         text-decoration: none;
         font-size: 1em;
-        color: #818181;
+        color: #393E59;
         display: block;
         transition: 0.3s;
     }
     .sidenav a:hover {
-        color: #f1f1f1;
+        color: #6FBFBF;
     }
     .sidenav .closebutton {
         position: absolute;
