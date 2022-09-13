@@ -5,6 +5,7 @@ header #openbutton {
     position: fixed;
     top: 1.5em;
     left: 1em;
+    color: #818181;
 }
 
 body {
@@ -17,6 +18,22 @@ main{
 main p {
     padding: 1em;
     text-align: justify;
+}
+
+.header {
+    height: 20em;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#assignment1 {
+    background-image: url(img/assignment1.png);
+}
+#project1 {
+    background-image: url(img/project1.png);
+}
+#project2 {
+    background-image: url(img/project2.png);
 }
 
 /* Grid */
