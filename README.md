@@ -7,7 +7,7 @@ All labs and projects for ATLS 4630 - Front-End Web Development
 
 [Documentation](https://charliekoepke.wordpress.com/projects/atls-4630-web-front-end-development/)
 
-## [Assignment 1]()
+## [Assignment 1](https://creative.colorado.edu/~chko6454/atls4630/assignment1/)
 
 > Create a web page that uses Javascript to interact with the DOM (document object model) in the following ways:
 >
