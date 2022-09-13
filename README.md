@@ -7,7 +7,7 @@ All labs and projects for ATLS 4630 - Front-End Web Development
 
 [Documentation](https://charliekoepke.wordpress.com/projects/atls-4630-web-front-end-development/)
 
-## [Assignment 1](https://creative.colorado.edu/~chko6454/atls4630/assignment1/)
+## [Assignment 1 - Javascript and the DOM](https://creative.colorado.edu/~chko6454/atls4630/assignment1/)
 
 > Create a web page that uses Javascript to interact with the DOM (document object model) in the following ways:
 >
@@ -16,5 +16,24 @@ All labs and projects for ATLS 4630 - Front-End Web Development
 >- Respond to at least two different types of events using event listeners.
 >
 >Both your Javascript and your CSS should be in external files (not embedded in the HTML).
+
+[Documentation](https://charliekoepke.wordpress.com/2022/09/13/lab-javascript-and-the-dom/)
+
+## [Assignment 2 - HTML Forms]()
+
+> Create a web page with a form that does the following:
+>
+>- Use at least one <button>.
+>- Use at least two <input> tags with different types (Links to an external site.).
+>- In addition, use at least two of the following other form controls:
+>- - text box
+>- - text area
+>- - check boxes
+>- - radio buttons
+>- - list box
+>- Every form element must be within a <form> parent tag. There must be at least one <form> tag in the page.
+>- The button should use the input from the other elements to manipulate the page.
+>
+>Event response should use event listeners. Javascript and CSS should be linked in external files.
 
 [Documentation]()
