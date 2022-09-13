@@ -18,9 +18,3 @@ All labs and projects for ATLS 4630 - Front-End Web Development
 >Both your Javascript and your CSS should be in external files (not embedded in the HTML).
 
 [Documentation]()
-
-## [Project 1](https://creative.colorado.edu/~chko6454/atls4630/project1/)
-
-> Design and develop a class portal that will hold your work throughout the semester. Design choices are up to you, but create something that represents you as a CTD student and your interests in technology and design. Be creative and have fun with this. You will be adding on to this web site throughout the semester, so make sure there is plenty of room to grow.
-
-[Documentation]()
