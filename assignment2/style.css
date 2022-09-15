@@ -1,3 +1,7 @@
+form {
+    display: block;
+}
+
 /* Frog drawing */
 /* Source: https://codepen.io/alvaromontoro/pen/PoGWZom */
 html {
@@ -28,9 +32,18 @@ html {
     background: var(--skin);
     border-radius: 40%;
     top: 20%;
-    left: 50%;
+    left: 100%;
     transform: translate(-50%, 0);
 }
+
+#saying {
+    transform: translate(-5%, 1000%);
+}
+
+#heading {
+    transform: translate(35%, -250%);
+}
+
 .eyes {
     width: 2em;
     height: 1em;

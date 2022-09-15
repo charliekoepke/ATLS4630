@@ -12,40 +12,57 @@
                 <legend>Create your frog!</legend>
 
                 <!-- Name of frog -->
-                <label for="name">Name your frog:</label>
-                <input type="text" id="name" name="name" required>
-            
+                <label for="name">Name your frog:</label><br>
+                <input type="text" id="name" name="name" placeholder="Frog">
+                <br><br>
 
                 <!-- What colour should the frog be? -->
                 <!-- Colour picker -->
-                <label for="body">What colour would you like your frog to be?</label>
+                <label for="body">What colour would you like your frog to be?</label><br>
+                <input type="color" value="#66a869" id="body">
+                <br><br>
 
                 <!-- What colour should the eyes be? -->
                 <!-- Colour picker -->
-                <label for="eyes"></label>
+                <label for="eyes">What colour would you like your frog's eyes to be?</label><br>
+                <input type="color" value="#ffffdd" id="eyes">
+                <br><br>
 
                 <!-- What colour should the pupils be? -->
                 <!-- Only options are black or white -->
-                <label for="pupils"></label>
+                <label for="pupils">What colour would you like your frog's pupils to be?</label><br>
+                <input type="radio" value="black" id="black" name="pupils" checked>
+                <label for="black">Black</label><br>
+                <input type="radio" value="white" id="white" name="pupils">
+                <label for="white">White</label>
+                <br><br>
+
 
                 <!-- What colour should the mouth be? -->
                 <!-- Colour picker -->
-                <label for="mouth"></label>
-            </fieldset>
-            <fieldset>
-                <legend>What do you want your frog to say?</legend>
+                <label for="mouth">What colour would you like you frog's mouth to be?</label><br>
+                <input type="color" value="#a43a43" id="mouth">
+                <br><br>
+
+                <!-- What saying should the frog say? -->
+                <legend>What do you want your frog to say?</legend><br>
+                <input type="text" name="saying" id="frogsaying" size="100" placeholder="I'm a frog!">
+                <br><br>
             </fieldset>
             <!-- Reset button -->
+            <input type="reset" id="resetbutton" value="Reset">
 
             <!-- Create frog button -->
-            <button>Frog!</button>
+            <button id="submitbutton">Frog!</button>
         </form>
 
         <!-- Where the drawing will be generated -->
-        <div class="drawing">
+        <div class="drawing" id="drawing">
             <div class="body">
+                <h2 id="heading">Frog</h2>
                 <div class="eyes"></div>
                 <div class="mouth"></div>
+                <p id="saying">I'm a frog!</p>
             </div>
         </div>
         <script src="script.js"></script>
