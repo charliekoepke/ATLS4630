@@ -15,22 +15,27 @@ submitButton.addEventListener('click',
 
         // Change body colour
         let bodyColor = document.getElementById("body").value;
+        document.querySelector("html").style.setProperty("--skin", bodyColor);
         
         // Change eye colour
         let eyeColor = document.getElementById("eyes").value;
+        document.querySelector("html").style.setProperty("eye", eyeColor);
 
         // Change pupil colour
         let blackPupils = document.getElementById("black").checked;
         let whitePupils = document.getElementById("white").checked;
         if (blackPupils == true) {
-            // change pupils variable black
+            console.log("black pupils");
+            document.querySelector("html").style.setProperty("pupil", "black");
         }
         else if (whitePupils == true) {
-            // change pupils variable white
+            console.log("white pupils");
+            document.querySelector("html").style.setProperty("pupil", "white");
         }
 
         // Change mouth colour
         let mouthColor = document.getElementById("mouth").value;
+        document.querySelector("html").style.setProperty("mouth", mouthColor);
 
         // Frog saying
         let frogSaying = document.getElementById("frogsaying").value;
