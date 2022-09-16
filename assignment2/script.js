@@ -19,23 +19,23 @@ submitButton.addEventListener('click',
         
         // Change eye colour
         let eyeColor = document.getElementById("eyes").value;
-        document.querySelector("html").style.setProperty("eye", eyeColor);
+        document.querySelector("html").style.setProperty("--eye", eyeColor);
 
         // Change pupil colour
         let blackPupils = document.getElementById("black").checked;
         let whitePupils = document.getElementById("white").checked;
         if (blackPupils == true) {
             console.log("black pupils");
-            document.querySelector("html").style.setProperty("pupil", "black");
+            document.querySelector("html").style.setProperty("--pupil", "black");
         }
         else if (whitePupils == true) {
             console.log("white pupils");
-            document.querySelector("html").style.setProperty("pupil", "white");
+            document.querySelector("html").style.setProperty("--pupil", "white");
         }
 
         // Change mouth colour
         let mouthColor = document.getElementById("mouth").value;
-        document.querySelector("html").style.setProperty("mouth", mouthColor);
+        document.querySelector("html").style.setProperty("--mouth", mouthColor);
 
         // Frog saying
         let frogSaying = document.getElementById("frogsaying").value;
