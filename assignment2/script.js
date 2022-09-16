@@ -1,7 +1,6 @@
 let submitButton = document.getElementById("submitbutton");
 let resetButton = document.getElementById("resetbutton");
 
-// https://stackoverflow.com/questions/5651933/what-is-the-opposite-of-evt-preventdefault
 // https://api.jquery.com/unbind/
 // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
 
