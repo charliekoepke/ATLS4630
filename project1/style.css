@@ -1,0 +1,26 @@
+html img {
+    width: 15em;
+}
+
+body {
+    background-color: #bcddc8;
+    background-image: url(img/acnh-background.jpg);
+}
+
+header {
+    text-align: center;
+}
+
+.grid {
+    padding: 2em;
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+}
