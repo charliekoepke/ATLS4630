@@ -24,3 +24,17 @@ header {
     text-align: center;
     gap: 2em;
 }
+
+/* Format for Mobile */
+@media only screen and (max-width: 500px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .flex {
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+}
