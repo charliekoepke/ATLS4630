@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 html img {
-    width: 15em;
+    width: 15vw;
 }
 
 body {
     background-color: #bcddc8;
     background-image: url(img/acnh-background.jpg);
     font-family: 'Nanum Pen Script', sans-serif;
+    font-size: 20pt;
 }
 
 header {
@@ -16,8 +17,8 @@ header {
 }
 
 .grid {
-    padding: 2em;
-    margin: 2em;
+    padding: 1vw;
+    margin: 1vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
@@ -26,7 +27,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 2em;
+    gap: 1vw;
 }
 
 /* Format for Mobile */
