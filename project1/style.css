@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 html img {
-    width: 15vw;
+    width: 10em;
 }
 
 body {
@@ -17,8 +17,8 @@ header {
 }
 
 .grid {
-    padding: 1vw;
-    margin: 1vw;
+    padding: 0.5em;
+    margin: 0.5em;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 1vw;
+    gap: 0.5em;
 }
 
 /* Format for Mobile */
@@ -40,6 +40,6 @@ header {
     }
     .flex {
         flex-wrap: wrap;
-        gap: 1em;
+        gap: 0.5em;
     }
 }
