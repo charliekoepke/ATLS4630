@@ -1,3 +1,6 @@
+/* Source: https://fonts.google.com/specimen/Nanum+Pen+Script */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 html img {
     width: 15em;
 }
@@ -5,6 +8,7 @@ html img {
 body {
     background-color: #bcddc8;
     background-image: url(img/acnh-background.jpg);
+    font-family: 'Nanum Pen Script', sans-serif;
 }
 
 header {
