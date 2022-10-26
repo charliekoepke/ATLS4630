@@ -1,9 +1,9 @@
 // API Source: https://acnhapi.com/
 
 // Enter name
-let name = prompt("Please enter your name: ");
+let name = prompt("Please enter your island's name: ");
 
-document.getElementById("nameisland").innerHTML = `${name}` + "'s Island";
+document.getElementById("nameisland").innerHTML = `${name}`;
 
 // Random number generator
 function getRandomInt(max) {
