@@ -1,0 +1,15 @@
+html {
+    background-image: url(img/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #faf9f6;
+    text-align: center;
+}
+
+div img {
+    height: 5em;
+}
+
+.spacer {
+    height: 1000px;
+}
