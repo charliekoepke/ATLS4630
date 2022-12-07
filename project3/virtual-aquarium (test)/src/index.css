@@ -1,0 +1,249 @@
+*,html {
+  padding: 0;
+  margin: 0;
+}
+
+backgroundImage {
+  filter: brightness(10%);
+}
+
+.info-box {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.25);
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 400px;
+  background-color: white;
+  margin: 300px 0;
+  padding: 20px 0px 20px 0px;
+  overflow: auto;
+}
+
+.close-button {
+  cursor: pointer;
+  border: 1px solid #999;
+  padding: 10px;
+  position: fixed;
+  right: 5%;
+  top: 30px;
+}
+
+.fish {
+  cursor: pointer;
+  margin: 15% auto;
+  padding: 5%;
+}
+
+.info-text {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75%;
+  margin: auto;
+}
+
+.info-image {
+  border-radius: 250px;
+}
+.App {
+  margin: 0;
+  border: 0;
+}
+
+#butterflyfish
+{
+  width: 14%;
+  position: absolute;
+  left: 1200px;
+  top: 80px;
+  rotate: 2deg;
+
+  transition: ease-in-out .2s;
+}
+
+#butterflyfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#clownfish
+{
+  width: 11%;
+  position: absolute;
+  left: 140px;
+  top: 80px;
+  rotate: 8deg;
+
+  transition: ease-in-out .2s;
+}
+
+#clownfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#lionfish
+{
+  width: 20%;
+  position: absolute;
+  left: 940px;
+  top: 280px;
+  rotate: 0deg;
+
+  transition: ease-in-out .2s;
+}
+
+#lionfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#parrotfish
+{
+  width: 20%;
+  position: absolute;
+  left: 1140px;
+  top: 480px;
+  rotate: 0deg;
+
+  transition: ease-in-out .2s;
+}
+
+#parrotfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#mandarinfish
+{
+  width: 20%;
+  rotate: -4deg;
+  position: absolute;
+  left: 120px;
+  top: 250px;
+
+  transition: ease-in-out .2s;
+}
+
+#mandarinfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#triggerfish
+{
+  width: 16%;
+  position: absolute;
+  left: 860px;
+  top: 80px;
+  rotate: -14deg;
+
+  transition: ease-in-out .2s;
+}
+
+#triggerfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#wrasse
+{
+  width: 16%;
+  rotate: 12deg;
+  position: absolute;
+  top: 260px;
+  left: 520px;
+
+  transition: ease-in-out .2s;
+}
+
+#wrasse:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#angelfish
+{
+  width: 12%;
+  rotate: -24deg;
+  position: absolute;
+  top: 312px;
+  left: 1260px;
+
+  transition: ease-in-out .2s;
+}
+
+#angelfish:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#catshark
+{
+  width: 30%;
+  rotate: 26deg;
+  position: absolute;
+  left: 396px;
+  top: -10px;
+
+  transition: ease-in-out .2s;
+}
+
+#catshark:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#kudaseahorse
+{
+  width: 14%;
+  transform: scaleX(-1);
+  rotate: 4deg;
+  position: absolute;
+  top: 400px;
+  left: 750px;
+
+  transition: ease-in-out .2s;
+}
+
+#kudaseahorse:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+#seaturtle
+{
+  width: 30%;
+  rotate: -8deg;
+  position: absolute;
+  left: 140px;
+  top: 470px;
+
+  transition: ease-in-out .2s;
+}
+
+#seaturtle:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
