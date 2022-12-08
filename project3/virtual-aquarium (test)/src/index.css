@@ -41,9 +41,9 @@ backgroundImage {
 }
 
 .fish {
+  max-height: 20%;
+  max-width: 20%;
   cursor: pointer;
-  margin: 15% auto;
-  padding: 5%;
 }
 
 .info-text {
@@ -60,6 +60,20 @@ backgroundImage {
   border: 0;
 }
 
+@keyframes butterflyfish
+{
+  from
+  {
+    top: 10px;
+    left: 1500px;
+  }
+  to
+  {
+    top: 80px;
+    left: 1200px;
+  }
+}
+
 #butterflyfish
 {
   width: 14%;
@@ -67,6 +81,8 @@ backgroundImage {
   left: 1200px;
   top: 80px;
   rotate: 2deg;
+
+  animation: butterflyfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -77,6 +93,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes clownfish
+{
+  from
+  {
+    top: 0px;
+    left: -200px;
+  }
+  to
+  {
+    top: 80px;
+    left: 140px;
+  }
+}
+
 #clownfish
 {
   width: 11%;
@@ -84,6 +114,8 @@ backgroundImage {
   left: 140px;
   top: 80px;
   rotate: 8deg;
+
+  animation: clownfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -94,6 +126,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes lionfish
+{
+  from
+  {
+    top: 460px;
+    left: 1640px;
+  }
+  to
+  {
+    top: 280px;
+    left: 940px;
+  }
+}
+
 #lionfish
 {
   width: 20%;
@@ -101,6 +147,8 @@ backgroundImage {
   left: 940px;
   top: 280px;
   rotate: 0deg;
+
+  animation: lionfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -111,6 +159,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes parrotfish
+{
+  from
+  {
+    top: 560px;
+    left: 1540px;
+  }
+  to
+  {
+    top: 480px;
+    left: 1140px;
+  }
+}
+
 #parrotfish
 {
   width: 20%;
@@ -118,6 +180,8 @@ backgroundImage {
   left: 1140px;
   top: 480px;
   rotate: 0deg;
+
+  animation: parrotfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -128,6 +192,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes mandarinfish
+{
+  from
+  {
+    top: 360px;
+    left: -200px;
+  }
+  to
+  {
+    top: 250px;
+    left: 120px;
+  }
+}
+
 #mandarinfish
 {
   width: 20%;
@@ -135,6 +213,8 @@ backgroundImage {
   position: absolute;
   left: 120px;
   top: 250px;
+
+  animation: mandarinfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -145,6 +225,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes triggerfish
+{
+  from
+  {
+    top: -200px;
+    left: 1560px;
+  }
+  to
+  {
+    top: 80px;
+    left: 860px;
+  }
+}
+
 #triggerfish
 {
   width: 16%;
@@ -152,6 +246,8 @@ backgroundImage {
   left: 860px;
   top: 80px;
   rotate: -14deg;
+
+  animation: triggerfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -162,6 +258,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes wrasse
+{
+  from
+  {
+    top: 160px;
+    left: -220px;
+  }
+  to
+  {
+    top: 260px;
+    left: 520px;
+  }
+}
+
 #wrasse
 {
   width: 16%;
@@ -169,6 +279,8 @@ backgroundImage {
   position: absolute;
   top: 260px;
   left: 520px;
+
+  animation: wrasse 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -179,6 +291,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes angelfish
+{
+  from
+  {
+    top: 312px;
+    left: 1560px;
+  }
+  to
+  {
+    top: 312px;
+    left: 1260px;
+  }
+}
+
 #angelfish
 {
   width: 12%;
@@ -186,6 +312,8 @@ backgroundImage {
   position: absolute;
   top: 312px;
   left: 1260px;
+
+  animation: angelfish 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -196,13 +324,29 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes catshark
+{
+  from
+  {
+    top: -300px;
+    left: 386px;
+  }
+  to
+  {
+    top: 24px;
+    left: 386px;
+  }
+}
+
 #catshark
 {
   width: 30%;
   rotate: 26deg;
   position: absolute;
-  left: 396px;
-  top: -10px;
+  left: 386px;
+  top: 24px;
+
+  animation: catshark 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -213,14 +357,29 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes kudaseahorse
+{
+  from
+  {
+    top: 800px;
+    left: 750px;
+  }
+  to
+  {
+    top: 400px;
+    left: 750px;
+  }
+}
+
 #kudaseahorse
 {
   width: 14%;
-  transform: scaleX(-1);
   rotate: 4deg;
   position: absolute;
   top: 400px;
   left: 750px;
+
+  animation: kudaseahorse 1s alternate;
 
   transition: ease-in-out .2s;
 }
@@ -231,6 +390,20 @@ backgroundImage {
   filter: brightness(80%);
 }
 
+@keyframes seaturtle
+{
+  from
+  {
+    top: 700px;
+    left: -200px;
+  }
+  to
+  {
+    top: 470px;
+    left: 140px;
+  }
+}
+
 #seaturtle
 {
   width: 30%;
@@ -238,6 +411,8 @@ backgroundImage {
   position: absolute;
   left: 140px;
   top: 470px;
+
+  animation: seaturtle 1s alternate;
 
   transition: ease-in-out .2s;
 }

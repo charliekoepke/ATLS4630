@@ -1,7 +1,21 @@
+#WelcomeScreen {
+  background-size: cover;
+  text-align: center;
+}
+
 .App {
   text-align: center;
   background-size: cover;
   height: 100vh;
+
+  background-image: url(./aquarium.jpg);
+}
+.App img {
+  display: none;
+}
+.App h2,
+p {
+  display: block;
 }
 
 .App-logo {
@@ -38,6 +52,41 @@
     transform: rotate(360deg);
   }
 }
+
+/* #kudaseahorse
+{
+  width: 14%;
+  rotate: 4deg;
+  position: absolute;
+  top: 400px;
+  left: 750px;
+
+  animation-name: kudaseahorse;
+  animation-duration: 6s;
+  animation-direction: alternate;
+
+  transition: ease-in-out .2s;
+}
+
+#kudaseahorse:hover
+{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+@keyframes kudaseahorse
+{
+  from
+  {
+    top: 800px;
+    left: 750px;
+  }
+  to
+  {
+    top: 400px;
+    left: 750px;
+  }
+} */
 
 /* #fish1
 {
